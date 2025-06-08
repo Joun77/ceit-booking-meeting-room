@@ -52,18 +52,7 @@ export default function BookingCard() {
           </div>
         </div>
         
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg
-            className="w-full h-4"
-            viewBox="0 0 100 10"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M0,0 L5,8 L10,2 L15,9 L20,1 L25,7 L30,3 L35,8 L40,2 L45,9 L50,1 L55,7 L60,3 L65,8 L70,2 L75,9 L80,1 L85,7 L90,3 L95,8 L100,2 L100,0 Z"
-              fill="white"
-            />
-          </svg>
-        </div>
+        
       </div>
     </div>
   );
