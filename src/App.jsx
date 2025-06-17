@@ -1,11 +1,11 @@
 import React from "react";
 
-import InputPassword from "./components/InputPassword";
+import Home from "./routes/Home";
 
 const App = () => {
   return (
-    <div className="p-6 max-w-md mx-auto">
-      <InputPassword />
+    <div className="">
+      <Home />
     </div>
   );
 };
