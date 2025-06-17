@@ -1,18 +1,13 @@
-// App.js or your router file
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './routes/Home'; // Adjust the import path as necessary
+import React from "react";
 
-function App() {
+import InputPassword from "./components/InputPassword";
+
+const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        {/* Your other routes */}
-      </Routes>
-    </Router>
+    <div className="p-6 max-w-md mx-auto">
+      <InputPassword />
+    </div>
   );
-}
+};
 
 export default App;
